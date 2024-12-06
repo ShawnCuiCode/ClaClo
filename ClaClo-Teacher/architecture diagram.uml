@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_BO3QkLDdEe-6bpzdOk1HKw" name="NewModel">
+    <packagedElement xmi:type="uml:Component" xmi:id="_vmGJcLDkEe-FFqQYCLdzwg" name="ClaClo-Teacher">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_3Y0FkLDpEe-FFqQYCLdzwg" name="" aggregation="composite" isID="true" redefinedProperty="_15x7wLDpEe-FFqQYCLdzwg" isConjugated="true" isService="false" redefinedPort="_15x7wLDpEe-FFqQYCLdzwg"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_KNvqkLDyEe-FFqQYCLdzwg" name="" aggregation="composite" redefinedProperty="_DvnwkLDyEe-FFqQYCLdzwg" isConjugated="true" redefinedPort="_DvnwkLDyEe-FFqQYCLdzwg"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_ZJpzwLDzEe-FFqQYCLdzwg" name="" aggregation="composite" redefinedProperty="_6Wsc4LDyEe-FFqQYCLdzwg" isConjugated="true" redefinedPort="_6Wsc4LDyEe-FFqQYCLdzwg"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_fbEHcLDzEe-FFqQYCLdzwg" name="" aggregation="composite" redefinedProperty="_WsJ2kLDzEe-FFqQYCLdzwg" isConjugated="true" redefinedPort="_WsJ2kLDzEe-FFqQYCLdzwg"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_gy8gYLDzEe-FFqQYCLdzwg" name="" aggregation="composite" redefinedProperty="_aLBxMLDzEe-FFqQYCLdzwg" isConjugated="true" redefinedPort="_aLBxMLDzEe-FFqQYCLdzwg"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_49QzALIqEe-9IJLiKzxTyQ" name="Port" aggregation="composite" redefinedProperty="_7ux4YLIqEe-9IJLiKzxTyQ" isConjugated="true" redefinedPort="_7ux4YLIqEe-9IJLiKzxTyQ"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_mHvKILK8Ee-6wdGxt-4xOQ" name="port7" aggregation="composite" redefinedProperty="_qbA9MLK8Ee-6wdGxt-4xOQ" isConjugated="true" redefinedPort="_qbA9MLK8Ee-6wdGxt-4xOQ"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_-_zeYLDkEe-FFqQYCLdzwg" name="User GUI"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_JXFbQLDlEe-FFqQYCLdzwg" name="Cloud Connection Manger">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_15x7wLDpEe-FFqQYCLdzwg" name="Port1" aggregation="composite" isConjugated="true"/>
+        <interfaceRealization xmi:id="_-DmYALDoEe-FFqQYCLdzwg" client="_JXFbQLDlEe-FFqQYCLdzwg" supplier="_s2E8ELDoEe-FFqQYCLdzwg" contract="_s2E8ELDoEe-FFqQYCLdzwg"/>
+        <interfaceRealization xmi:id="_RYu5ULDsEe-FFqQYCLdzwg" client="_JXFbQLDlEe-FFqQYCLdzwg" supplier="_qt_G0LDrEe-FFqQYCLdzwg" contract="_qt_G0LDrEe-FFqQYCLdzwg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_vvSsQLDlEe-FFqQYCLdzwg" name="Manage Exercise and Assessment">
+        <ownedComment xmi:id="_GDRLALDuEe-FFqQYCLdzwg" annotatedElement="_vvSsQLDlEe-FFqQYCLdzwg">
+          <body>On/Offline Exercise&#xD;
+On/Offline Assessment</body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_DvnwkLDyEe-FFqQYCLdzwg" name="Port2" aggregation="composite" isConjugated="true"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_qbA9MLK8Ee-6wdGxt-4xOQ" name="port2" aggregation="composite" isConjugated="true"/>
+        <interfaceRealization xmi:id="_hVWxQLDwEe-FFqQYCLdzwg" client="_vvSsQLDlEe-FFqQYCLdzwg" supplier="_ZUjjkLDwEe-FFqQYCLdzwg" contract="_ZUjjkLDwEe-FFqQYCLdzwg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_wy0l0LDlEe-FFqQYCLdzwg" name="Mark and Feedback Service">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_6Wsc4LDyEe-FFqQYCLdzwg" name="Port1" aggregation="composite" isConjugated="true"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_7ux4YLIqEe-9IJLiKzxTyQ" name="Port3" aggregation="composite" isConjugated="true"/>
+        <interfaceRealization xmi:id="_FmprALDvEe-FFqQYCLdzwg" client="_wy0l0LDlEe-FFqQYCLdzwg" supplier="__V4QgLDuEe-FFqQYCLdzwg" contract="__V4QgLDuEe-FFqQYCLdzwg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_xjYgELDlEe-FFqQYCLdzwg" name="Upload teaching material">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_WsJ2kLDzEe-FFqQYCLdzwg" name="Port5" aggregation="composite" isConjugated="true"/>
+        <interfaceRealization xmi:id="_spxhQLDvEe-FFqQYCLdzwg" client="_xjYgELDlEe-FFqQYCLdzwg" supplier="_od6k0LDvEe-FFqQYCLdzwg" contract="_od6k0LDvEe-FFqQYCLdzwg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_ynvgELDlEe-FFqQYCLdzwg" name="Student List Manger">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_aLBxMLDzEe-FFqQYCLdzwg" name="Port23" aggregation="composite" isConjugated="true"/>
+        <interfaceRealization xmi:id="_c1vV4LDxEe-FFqQYCLdzwg" client="_ynvgELDlEe-FFqQYCLdzwg" supplier="_RJLoILDxEe-FFqQYCLdzwg" contract="_RJLoILDxEe-FFqQYCLdzwg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_s2E8ELDoEe-FFqQYCLdzwg" name="Login"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_qt_G0LDrEe-FFqQYCLdzwg" name="GetSessionToken"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="__V4QgLDuEe-FFqQYCLdzwg" name="MarkAndFeedback"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_od6k0LDvEe-FFqQYCLdzwg" name="Upload"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_ZUjjkLDwEe-FFqQYCLdzwg" name="Modify Student Work"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_RJLoILDxEe-FFqQYCLdzwg" name="ManageStudent"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_fmKhALDvEe-FFqQYCLdzwg" client="_vmGJcLDkEe-FFqQYCLdzwg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_zdFCELDkEe-FFqQYCLdzwg" name="ClaClo-Cloud">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_Yo0GoLDqEe-FFqQYCLdzwg" name="Port1" aggregation="composite" isConjugated="true"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_pzNNsLD4Ee-FFqQYCLdzwg" name="Port2" aggregation="composite" isConjugated="true"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_sQbeELD4Ee-FFqQYCLdzwg" name="Port" aggregation="composite" isConjugated="true"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_C2SlwLD7Ee-FFqQYCLdzwg" name="Port" aggregation="composite" isConjugated="true"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_6byh0LD-Ee-x74HliMXgMQ" name="Port" aggregation="composite" isConjugated="true"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_FQI54LIrEe-9IJLiKzxTyQ" name="Port" aggregation="composite" isConjugated="true"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_bN4rsLK8Ee-6wdGxt-4xOQ" name="port7" aggregation="composite" isConjugated="true"/>
+      <interfaceRealization xmi:id="_qzw0ILDqEe-FFqQYCLdzwg" client="_zdFCELDkEe-FFqQYCLdzwg _Yo0GoLDqEe-FFqQYCLdzwg" supplier="_kTGjgLDqEe-FFqQYCLdzwg" contract="_kTGjgLDqEe-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_rs6psLDqEe-FFqQYCLdzwg" client="_zdFCELDkEe-FFqQYCLdzwg _Yo0GoLDqEe-FFqQYCLdzwg" supplier="_kTGjgLDqEe-FFqQYCLdzwg" contract="_kTGjgLDqEe-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_zamNcLDyEe-FFqQYCLdzwg" client="_zdFCELDkEe-FFqQYCLdzwg _Yo0GoLDqEe-FFqQYCLdzwg" supplier="_PhBbsLDqEe-FFqQYCLdzwg" contract="_PhBbsLDqEe-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_dFVXcLD5Ee-FFqQYCLdzwg" client="_zdFCELDkEe-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_d2crULD5Ee-FFqQYCLdzwg" client="_zdFCELDkEe-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_ft1qwLD5Ee-FFqQYCLdzwg" client="_zdFCELDkEe-FFqQYCLdzwg _pzNNsLD4Ee-FFqQYCLdzwg" supplier="_FooccLD5Ee-FFqQYCLdzwg" contract="_FooccLD5Ee-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_jeOzMLD5Ee-FFqQYCLdzwg" client="_zdFCELDkEe-FFqQYCLdzwg _pzNNsLD4Ee-FFqQYCLdzwg" supplier="_FooccLD5Ee-FFqQYCLdzwg" contract="_FooccLD5Ee-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_dwwdkLD6Ee-FFqQYCLdzwg" client="_zdFCELDkEe-FFqQYCLdzwg _sQbeELD4Ee-FFqQYCLdzwg" supplier="_naXRkLD5Ee-FFqQYCLdzwg" contract="_naXRkLD5Ee-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_n7dXALD6Ee-FFqQYCLdzwg" client="_zdFCELDkEe-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_tafLgLD6Ee-FFqQYCLdzwg" client="_zdFCELDkEe-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_0NJyILD6Ee-FFqQYCLdzwg" client="_zdFCELDkEe-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_0u-s0LD6Ee-FFqQYCLdzwg" client="_zdFCELDkEe-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_6JdYgLD6Ee-FFqQYCLdzwg" client="_zdFCELDkEe-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_jCXrsLD7Ee-x74HliMXgMQ" client="_zdFCELDkEe-FFqQYCLdzwg _C2SlwLD7Ee-FFqQYCLdzwg" supplier="_9OkvULD6Ee-FFqQYCLdzwg" contract="_9OkvULD6Ee-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_0wDOYLD7Ee-x74HliMXgMQ" client="_zdFCELDkEe-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_3li00LD7Ee-x74HliMXgMQ" client="_zdFCELDkEe-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_4PHWQLD7Ee-x74HliMXgMQ" client="_zdFCELDkEe-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_5_Wk0LD7Ee-x74HliMXgMQ" client="_zdFCELDkEe-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_H3IM8LD8Ee-x74HliMXgMQ" client="_zdFCELDkEe-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_ISaawLD8Ee-x74HliMXgMQ" client="_zdFCELDkEe-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_JYVhALD8Ee-x74HliMXgMQ" client="_zdFCELDkEe-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_9XKYsLD8Ee-x74HliMXgMQ" client="_zdFCELDkEe-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_npjAQLD9Ee-x74HliMXgMQ" client="_zdFCELDkEe-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_fBcskLD-Ee-x74HliMXgMQ" client="_zdFCELDkEe-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_-tPv8LD-Ee-x74HliMXgMQ" client="_zdFCELDkEe-FFqQYCLdzwg _6byh0LD-Ee-x74HliMXgMQ" supplier="_4AHwoLD-Ee-x74HliMXgMQ" contract="_4AHwoLD-Ee-x74HliMXgMQ"/>
+      <interfaceRealization xmi:id="_AiVz4LEAEe-o36GeaDPtjA" client="_zdFCELDkEe-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_A8YrkLEAEe-o36GeaDPtjA" client="_zdFCELDkEe-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_aujpILEAEe-2WtAtk5AhNQ" client="_zdFCELDkEe-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_pgsnwLEAEe-2WtAtk5AhNQ" client="_zdFCELDkEe-FFqQYCLdzwg _pzNNsLD4Ee-FFqQYCLdzwg" supplier="_lbjMwLD_Ee-VBIRA-JHVtw" contract="_lbjMwLD_Ee-VBIRA-JHVtw"/>
+      <interfaceRealization xmi:id="_qbnX4LEAEe-2WtAtk5AhNQ" client="_zdFCELDkEe-FFqQYCLdzwg _sQbeELD4Ee-FFqQYCLdzwg" supplier="_nco6wLD_Ee-VBIRA-JHVtw" contract="_nco6wLD_Ee-VBIRA-JHVtw"/>
+      <interfaceRealization xmi:id="_q_Uh4LEAEe-2WtAtk5AhNQ" client="_zdFCELDkEe-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_uO6DULEAEe-2WtAtk5AhNQ" client="_zdFCELDkEe-FFqQYCLdzwg _C2SlwLD7Ee-FFqQYCLdzwg" supplier="_oQRXILD_Ee-VBIRA-JHVtw" contract="_oQRXILD_Ee-VBIRA-JHVtw"/>
+      <interfaceRealization xmi:id="_zwEl0LEAEe-2WtAtk5AhNQ" client="_zdFCELDkEe-FFqQYCLdzwg _6byh0LD-Ee-x74HliMXgMQ" supplier="_opH8ALD_Ee-VBIRA-JHVtw" contract="_opH8ALD_Ee-VBIRA-JHVtw"/>
+      <interfaceRealization xmi:id="_00vH0LEAEe-2WtAtk5AhNQ" client="_zdFCELDkEe-FFqQYCLdzwg"/>
+      <interfaceRealization xmi:id="_hNfVkLIrEe-9IJLiKzxTyQ" client="_zdFCELDkEe-FFqQYCLdzwg _FQI54LIrEe-9IJLiKzxTyQ" supplier="_3oNroLIqEe-9IJLiKzxTyQ" contract="_3oNroLIqEe-9IJLiKzxTyQ"/>
+      <interfaceRealization xmi:id="_vlIJgLIrEe-9IJLiKzxTyQ" client="_zdFCELDkEe-FFqQYCLdzwg _FQI54LIrEe-9IJLiKzxTyQ" supplier="_Gu598LIrEe-9IJLiKzxTyQ" contract="_Gu598LIrEe-9IJLiKzxTyQ"/>
+      <interfaceRealization xmi:id="_iG1ggLK8Ee-6wdGxt-4xOQ" client="_zdFCELDkEe-FFqQYCLdzwg _bN4rsLK8Ee-6wdGxt-4xOQ" supplier="_TpgUQLK8Ee-6wdGxt-4xOQ" contract="_TpgUQLK8Ee-6wdGxt-4xOQ"/>
+      <interfaceRealization xmi:id="_kq-4QLK8Ee-6wdGxt-4xOQ" client="_zdFCELDkEe-FFqQYCLdzwg _bN4rsLK8Ee-6wdGxt-4xOQ" supplier="_c7YvULK8Ee-6wdGxt-4xOQ" contract="_c7YvULK8Ee-6wdGxt-4xOQ"/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_kTGjgLDqEe-FFqQYCLdzwg" name="Login"/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_FooccLD5Ee-FFqQYCLdzwg" name="ManageStudentWork"/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_naXRkLD5Ee-FFqQYCLdzwg" name="MarkWorkAndGivingFeedback">
+        <nestedClassifier xmi:type="uml:Interface" xmi:id="_vUPX4LD5Ee-FFqQYCLdzwg" name=""/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_9OkvULD6Ee-FFqQYCLdzwg" name="Upload"/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_TpgUQLK8Ee-6wdGxt-4xOQ" name="AssessmentSearch"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_eKUZoLDlEe-FFqQYCLdzwg" name="&lt;&lt;Service>>     Authentication">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_PehE0bDrEe-FFqQYCLdzwg" name="Authentication ServicePort" type="_eKUZoLDlEe-FFqQYCLdzwg"/>
+        <ownedConnector xmi:id="_PehE0LDrEe-FFqQYCLdzwg" name="login__connector">
+          <end xmi:id="_PehE0rDrEe-FFqQYCLdzwg" role="_PehE0bDrEe-FFqQYCLdzwg"/>
+          <end xmi:id="_PehE07DrEe-FFqQYCLdzwg" role="_Yo0GoLDqEe-FFqQYCLdzwg"/>
+        </ownedConnector>
+        <interfaceRealization xmi:id="_56qh0LDqEe-FFqQYCLdzwg" client="_eKUZoLDlEe-FFqQYCLdzwg _PehE0LDrEe-FFqQYCLdzwg" supplier="_kTGjgLDqEe-FFqQYCLdzwg" contract="_kTGjgLDqEe-FFqQYCLdzwg"/>
+        <interfaceRealization xmi:id="_T74VELD4Ee-FFqQYCLdzwg" client="_eKUZoLDlEe-FFqQYCLdzwg" supplier="_9_A1ILD3Ee-FFqQYCLdzwg" contract="_9_A1ILD3Ee-FFqQYCLdzwg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_sBdvoLDlEe-FFqQYCLdzwg" name="&lt;&lt;Service>>    Student Works Service">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_kUshIbD5Ee-FFqQYCLdzwg" name="Student Works MangerPort" type="_sBdvoLDlEe-FFqQYCLdzwg"/>
+        <ownedConnector xmi:id="_kUshILD5Ee-FFqQYCLdzwg" name="Set Up__connector">
+          <end xmi:id="_kUshIrD5Ee-FFqQYCLdzwg" role="_kUshIbD5Ee-FFqQYCLdzwg"/>
+          <end xmi:id="_kUshI7D5Ee-FFqQYCLdzwg" role="_pzNNsLD4Ee-FFqQYCLdzwg"/>
+        </ownedConnector>
+        <ownedConnector xmi:id="_lFGqYLD5Ee-FFqQYCLdzwg" name="Modify__connector">
+          <end xmi:id="_lFGqYbD5Ee-FFqQYCLdzwg" role="_kUshIbD5Ee-FFqQYCLdzwg"/>
+          <end xmi:id="_lFGqYrD5Ee-FFqQYCLdzwg"/>
+        </ownedConnector>
+        <ownedConnector xmi:id="_1QrrsLD6Ee-FFqQYCLdzwg" name="Interface3__connector">
+          <end xmi:id="_1QrrsbD6Ee-FFqQYCLdzwg" role="_kUshIbD5Ee-FFqQYCLdzwg"/>
+          <end xmi:id="_1QrrsrD6Ee-FFqQYCLdzwg"/>
+        </ownedConnector>
+        <ownedConnector xmi:id="_Yb1VYLD8Ee-x74HliMXgMQ" name="__connector">
+          <end xmi:id="_Yb1VYbD8Ee-x74HliMXgMQ" role="_kUshIbD5Ee-FFqQYCLdzwg"/>
+          <end xmi:id="_Yb18cLD8Ee-x74HliMXgMQ"/>
+        </ownedConnector>
+        <ownedConnector xmi:id="_jR924LK8Ee-6wdGxt-4xOQ" name="AssessmentSearch_port7_connector">
+          <end xmi:id="_jSHA0LK8Ee-6wdGxt-4xOQ" role="_kUshIbD5Ee-FFqQYCLdzwg"/>
+          <end xmi:id="_jSHn4LK8Ee-6wdGxt-4xOQ" role="_bN4rsLK8Ee-6wdGxt-4xOQ"/>
+        </ownedConnector>
+        <interfaceRealization xmi:id="_Q0IrkLD5Ee-FFqQYCLdzwg" client="_sBdvoLDlEe-FFqQYCLdzwg _kUshILD5Ee-FFqQYCLdzwg" supplier="_FooccLD5Ee-FFqQYCLdzwg" contract="_FooccLD5Ee-FFqQYCLdzwg"/>
+        <interfaceRealization xmi:id="_ckvL0LD5Ee-FFqQYCLdzwg" client="_sBdvoLDlEe-FFqQYCLdzwg _lFGqYLD5Ee-FFqQYCLdzwg"/>
+        <interfaceRealization xmi:id="_gkN3MLK8Ee-6wdGxt-4xOQ" client="_sBdvoLDlEe-FFqQYCLdzwg _jR924LK8Ee-6wdGxt-4xOQ" supplier="_TpgUQLK8Ee-6wdGxt-4xOQ" contract="_TpgUQLK8Ee-6wdGxt-4xOQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_tnCmULDlEe-FFqQYCLdzwg" name="&lt;&lt;Service>>       Mark Student Work and Feedback Service">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_1821MbD6Ee-FFqQYCLdzwg" name="&lt;&lt;Service>>    Mark Student Work and FeedbackPort" type="_tnCmULDlEe-FFqQYCLdzwg"/>
+        <ownedConnector xmi:id="_1821MLD6Ee-FFqQYCLdzwg" name="Feedback__connector">
+          <end xmi:id="_1821MrD6Ee-FFqQYCLdzwg" role="_1821MbD6Ee-FFqQYCLdzwg"/>
+          <end xmi:id="_1821M7D6Ee-FFqQYCLdzwg" role="_sQbeELD4Ee-FFqQYCLdzwg"/>
+        </ownedConnector>
+        <ownedConnector xmi:id="_2ffoMLD6Ee-FFqQYCLdzwg" name="Mark__connector">
+          <end xmi:id="_2fgPQLD6Ee-FFqQYCLdzwg" role="_1821MbD6Ee-FFqQYCLdzwg"/>
+          <end xmi:id="_2fgPQbD6Ee-FFqQYCLdzwg"/>
+        </ownedConnector>
+        <ownedConnector xmi:id="_wVsDwLIrEe-9IJLiKzxTyQ" name="Student Rating__connector">
+          <end xmi:id="_wVsq0LIrEe-9IJLiKzxTyQ" role="_1821MbD6Ee-FFqQYCLdzwg"/>
+          <end xmi:id="_wVtR4LIrEe-9IJLiKzxTyQ" role="_FQI54LIrEe-9IJLiKzxTyQ"/>
+        </ownedConnector>
+        <interfaceRealization xmi:id="_ggUbILD6Ee-FFqQYCLdzwg" client="_tnCmULDlEe-FFqQYCLdzwg _1821MLD6Ee-FFqQYCLdzwg" supplier="_naXRkLD5Ee-FFqQYCLdzwg" contract="_naXRkLD5Ee-FFqQYCLdzwg"/>
+        <interfaceRealization xmi:id="_UTHw4LIrEe-9IJLiKzxTyQ" client="_tnCmULDlEe-FFqQYCLdzwg _wVsDwLIrEe-9IJLiKzxTyQ" supplier="_Gu598LIrEe-9IJLiKzxTyQ" contract="_Gu598LIrEe-9IJLiKzxTyQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_uv-kULDlEe-FFqQYCLdzwg" name="&lt;&lt;Service>>    Storing Teaching Material Service">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_LP6tsLD8Ee-x74HliMXgMQ" name="&lt;&lt;Service>>    Storing Teaching MaterialPort" type="_uv-kULDlEe-FFqQYCLdzwg"/>
+        <ownedConnector xmi:id="_LP6GoLD8Ee-x74HliMXgMQ" name="__connector">
+          <end xmi:id="_LP7UwLD8Ee-x74HliMXgMQ" role="_LP6tsLD8Ee-x74HliMXgMQ"/>
+          <end xmi:id="_LP770LD8Ee-x74HliMXgMQ" role="_C2SlwLD7Ee-FFqQYCLdzwg"/>
+        </ownedConnector>
+        <interfaceRealization xmi:id="_hXt9MLD6Ee-FFqQYCLdzwg" client="_uv-kULDlEe-FFqQYCLdzwg"/>
+        <interfaceRealization xmi:id="__mCV8LD6Ee-FFqQYCLdzwg" client="_uv-kULDlEe-FFqQYCLdzwg _LP6GoLD8Ee-x74HliMXgMQ" supplier="_9OkvULD6Ee-FFqQYCLdzwg" contract="_9OkvULD6Ee-FFqQYCLdzwg"/>
+        <interfaceRealization xmi:id="_JjLUgLD7Ee-FFqQYCLdzwg" client="_uv-kULDlEe-FFqQYCLdzwg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_9_A1ILD3Ee-FFqQYCLdzwg" name="CheckIdentity"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_2iSgsLD-Ee-x74HliMXgMQ" name="&lt;&lt;Service>>            Class Student Management Service">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_DB9tcLD_Ee-CTvDQIDfByw" name="&lt;&lt;Service>>    Student Data MangerPort" type="_2iSgsLD-Ee-x74HliMXgMQ"/>
+        <ownedConnector xmi:id="_DB9GYLD_Ee-CTvDQIDfByw" name="__connector">
+          <end xmi:id="_DB-UgLD_Ee-CTvDQIDfByw" role="_DB9tcLD_Ee-CTvDQIDfByw"/>
+          <end xmi:id="_DB-UgbD_Ee-CTvDQIDfByw" role="_6byh0LD-Ee-x74HliMXgMQ"/>
+        </ownedConnector>
+        <ownedConnector xmi:id="_1Sv5gLEAEe-2WtAtk5AhNQ" name="Delete Student__connector">
+          <end xmi:id="_1SxusLEAEe-2WtAtk5AhNQ" role="_DB9tcLD_Ee-CTvDQIDfByw"/>
+          <end xmi:id="_1SxusbEAEe-2WtAtk5AhNQ"/>
+        </ownedConnector>
+        <interfaceRealization xmi:id="_Cih_cLD_Ee-CTvDQIDfByw" client="_2iSgsLD-Ee-x74HliMXgMQ _DB9GYLD_Ee-CTvDQIDfByw" supplier="_4AHwoLD-Ee-x74HliMXgMQ" contract="_4AHwoLD-Ee-x74HliMXgMQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_4AHwoLD-Ee-x74HliMXgMQ" name="ManageStudent"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_Gu598LIrEe-9IJLiKzxTyQ" name="Student Rating"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_lugx0LK8Ee-6wdGxt-4xOQ" client="_mHvKILK8Ee-6wdGxt-4xOQ" supplier="_c7YvULK8Ee-6wdGxt-4xOQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_NBhI0LDpEe-FFqQYCLdzwg" client="_-_zeYLDkEe-FFqQYCLdzwg" supplier="_s2E8ELDoEe-FFqQYCLdzwg"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_PhBbsLDqEe-FFqQYCLdzwg" name="Login"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_ccwncLDsEe-FFqQYCLdzwg" client="_vvSsQLDlEe-FFqQYCLdzwg" supplier="_qt_G0LDrEe-FFqQYCLdzwg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_kXiFoLDsEe-FFqQYCLdzwg" client="_wy0l0LDlEe-FFqQYCLdzwg" supplier="_qt_G0LDrEe-FFqQYCLdzwg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_nAnnwLDsEe-FFqQYCLdzwg" client="_xjYgELDlEe-FFqQYCLdzwg" supplier="_qt_G0LDrEe-FFqQYCLdzwg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_qitOcLDsEe-FFqQYCLdzwg" client="_ynvgELDlEe-FFqQYCLdzwg" supplier="_qt_G0LDrEe-FFqQYCLdzwg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_G_a0wLDvEe-FFqQYCLdzwg" client="_-_zeYLDkEe-FFqQYCLdzwg" supplier="__V4QgLDuEe-FFqQYCLdzwg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_uEkEQLDvEe-FFqQYCLdzwg" client="_-_zeYLDkEe-FFqQYCLdzwg" supplier="_od6k0LDvEe-FFqQYCLdzwg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_kxC1ALDwEe-FFqQYCLdzwg" client="_-_zeYLDkEe-FFqQYCLdzwg" supplier="_ZUjjkLDwEe-FFqQYCLdzwg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_drJ68LDxEe-FFqQYCLdzwg" client="_-_zeYLDkEe-FFqQYCLdzwg" supplier="_RJLoILDxEe-FFqQYCLdzwg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_WtYzYLD4Ee-FFqQYCLdzwg" client="_sBdvoLDlEe-FFqQYCLdzwg" supplier="_9_A1ILD3Ee-FFqQYCLdzwg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_bl6BgLD4Ee-FFqQYCLdzwg" client="_tnCmULDlEe-FFqQYCLdzwg" supplier="_9_A1ILD3Ee-FFqQYCLdzwg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_ekf5kLD4Ee-FFqQYCLdzwg" client="_uv-kULDlEe-FFqQYCLdzwg" supplier="_9_A1ILD3Ee-FFqQYCLdzwg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_WKju8LD_Ee-CTvDQIDfByw" client="_2iSgsLD-Ee-x74HliMXgMQ" supplier="_9_A1ILD3Ee-FFqQYCLdzwg"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_lbjMwLD_Ee-VBIRA-JHVtw" name="ManageStudentWork"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_nco6wLD_Ee-VBIRA-JHVtw" name="MarkAndFeedback"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_oQRXILD_Ee-VBIRA-JHVtw" name="UploadTeachingMaterial"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_opH8ALD_Ee-VBIRA-JHVtw" name=" ManageStudent"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_8E8oALGuEe-c0aJFHCacmQ" client="_-_zeYLDkEe-FFqQYCLdzwg"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_3oNroLIqEe-9IJLiKzxTyQ" name="StudentRating"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_9NbLMLIrEe-9IJLiKzxTyQ" client="_KNvqkLDyEe-FFqQYCLdzwg" supplier="_lbjMwLD_Ee-VBIRA-JHVtw"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_qppKILIvEe-9IJLiKzxTyQ" client="_3Y0FkLDpEe-FFqQYCLdzwg" supplier="_PhBbsLDqEe-FFqQYCLdzwg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_QOtG8LIwEe-9IJLiKzxTyQ" client="_ZJpzwLDzEe-FFqQYCLdzwg" supplier="_nco6wLD_Ee-VBIRA-JHVtw"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_8UipILIwEe-9IJLiKzxTyQ" client="_49QzALIqEe-9IJLiKzxTyQ" supplier="_3oNroLIqEe-9IJLiKzxTyQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_f_bYQLIxEe-9IJLiKzxTyQ" client="_fbEHcLDzEe-FFqQYCLdzwg" supplier="_oQRXILD_Ee-VBIRA-JHVtw"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_g24ksLIxEe-9IJLiKzxTyQ" client="_gy8gYLDzEe-FFqQYCLdzwg" supplier="_opH8ALD_Ee-VBIRA-JHVtw"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_c7YvULK8Ee-6wdGxt-4xOQ" name="Assessmentsearch"/>
+    <profileApplication xmi:id="_SVPtQLDeEe-6bpzdOk1HKw">
+      <eAnnotations xmi:id="_SVPtQbDeEe-6bpzdOk1HKw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <standard:Realization xmi:id="_SVRicLDeEe-6bpzdOk1HKw"/>
+</xmi:XMI>

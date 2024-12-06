@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_-fiZALDbEe-6bpzdOk1HKw" name="NewModel">
+  <packagedElement xmi:type="uml:Activity" xmi:id="__5ywgLDbEe-6bpzdOk1HKw" name="Set up exercises and assessments" node="_YywOILDcEe-6bpzdOk1HKw _axOF8LDcEe-6bpzdOk1HKw _kp4NILDcEe-6bpzdOk1HKw _1zKpULDcEe-6bpzdOk1HKw _Ie8roLDgEe-FFqQYCLdzwg _M71GoLDgEe-FFqQYCLdzwg _9H5eYLDgEe-FFqQYCLdzwg _Jl_90LDhEe-FFqQYCLdzwg _WaCRALDhEe-FFqQYCLdzwg _rjKm4LDhEe-FFqQYCLdzwg _wen0QLDhEe-FFqQYCLdzwg _3fpnALDhEe-FFqQYCLdzwg _8nS2QLDhEe-FFqQYCLdzwg _CteKULDiEe-FFqQYCLdzwg _JvpzoLDiEe-FFqQYCLdzwg _fsb0ALDiEe-FFqQYCLdzwg _z22e4LDiEe-FFqQYCLdzwg _QHVR8LDjEe-FFqQYCLdzwg _YjaGYLDjEe-FFqQYCLdzwg _e0m-sLDjEe-FFqQYCLdzwg _sfy8ULDjEe-FFqQYCLdzwg _4RC80LDjEe-FFqQYCLdzwg _C7npILDkEe-FFqQYCLdzwg _Q7NJcLDkEe-FFqQYCLdzwg _aROdoLDkEe-FFqQYCLdzwg _fgafULDkEe-FFqQYCLdzwg _lymPELDkEe-FFqQYCLdzwg _hz10gLOXEe-xKpu6OPNuHg" group="_PtrgALDcEe-6bpzdOk1HKw _SJVDELDcEe-6bpzdOk1HKw" partition="_PtrgALDcEe-6bpzdOk1HKw _SJVDELDcEe-6bpzdOk1HKw">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_evGQwLDcEe-6bpzdOk1HKw" target="_axOF8LDcEe-6bpzdOk1HKw" source="_YywOILDcEe-6bpzdOk1HKw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_evG30LDcEe-6bpzdOk1HKw" name="_To_Log in to system_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_evHe4LDcEe-6bpzdOk1HKw" name="_To_Log in to system_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_0Ud2sLDcEe-6bpzdOk1HKw" target="_kp4NILDcEe-6bpzdOk1HKw" source="_axOF8LDcEe-6bpzdOk1HKw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_0Ud2sbDcEe-6bpzdOk1HKw" name="Log in to system_To_Username and Password_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_0Ud2srDcEe-6bpzdOk1HKw" name="Log in to system_To_Username and Password_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_6v1XoLDcEe-6bpzdOk1HKw" target="_1zKpULDcEe-6bpzdOk1HKw" source="_kp4NILDcEe-6bpzdOk1HKw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_6v1-sLDcEe-6bpzdOk1HKw" name="Username and Password_To_Check Credentials_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_6v1-sbDcEe-6bpzdOk1HKw" name="Username and Password_To_Check Credentials_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_LLJMILDgEe-FFqQYCLdzwg" target="_Ie8roLDgEe-FFqQYCLdzwg" source="_1zKpULDcEe-6bpzdOk1HKw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_LLJzMLDgEe-FFqQYCLdzwg" name="Check Credentials_To__guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_LLKaQLDgEe-FFqQYCLdzwg" name="Check Credentials_To__weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_paPA8LDgEe-FFqQYCLdzwg" name="Username and Password Do Not Match" target="_M71GoLDgEe-FFqQYCLdzwg" source="_Ie8roLDgEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_paPA8bDgEe-FFqQYCLdzwg" name="_To_Diaplay error message_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_paPA8rDgEe-FFqQYCLdzwg" name="_To_Diaplay error message_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_qVyDMLDgEe-FFqQYCLdzwg" name="【else】" source="_Ie8roLDgEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_qVyqQLDgEe-FFqQYCLdzwg" name="_To_Request exiting student works_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_qVyqQbDgEe-FFqQYCLdzwg" name="_To_Request exiting student works_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_INhvALDhEe-FFqQYCLdzwg" target="_9H5eYLDgEe-FFqQYCLdzwg" source="_M71GoLDgEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_INhvAbDhEe-FFqQYCLdzwg" name="Diaplay error message_To_Error Message Username and Password Do Not Match_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_INhvArDhEe-FFqQYCLdzwg" name="Diaplay error message_To_Error Message Username and Password Do Not Match_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_KjuxYLDhEe-FFqQYCLdzwg" target="_axOF8LDcEe-6bpzdOk1HKw" source="_9H5eYLDgEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_KjvYcLDhEe-FFqQYCLdzwg" name="Error Message Username and Password Do Not Match_To_Log in to system_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_KjvYcbDhEe-FFqQYCLdzwg" name="Error Message Username and Password Do Not Match_To_Log in to system_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_SuSYALDhEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_SuSYAbDhEe-FFqQYCLdzwg" name="Request exiting student works_To_Request exiting exercises and assessments_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_SuSYArDhEe-FFqQYCLdzwg" name="Request exiting student works_To_Request exiting exercises and assessments_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_cgvwkLDhEe-FFqQYCLdzwg" target="_WaCRALDhEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_cgvwkbDhEe-FFqQYCLdzwg" name="Request exiting exercises and assessments_To_Display exiting student works_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_cgwXoLDhEe-FFqQYCLdzwg" name="Request exiting exercises and assessments_To_Display exiting student works_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_k9X-oLDhEe-FFqQYCLdzwg" target="_Jl_90LDhEe-FFqQYCLdzwg" source="_WaCRALDhEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_k9X-obDhEe-FFqQYCLdzwg" name="Display exiting student works_To_View Student Works_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_k9X-orDhEe-FFqQYCLdzwg" name="Display exiting student works_To_View Student Works_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ucvcELDhEe-FFqQYCLdzwg" target="_rjKm4LDhEe-FFqQYCLdzwg" source="_Jl_90LDhEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_ucvcEbDhEe-FFqQYCLdzwg" name="View Student Works_To__guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_ucvcErDhEe-FFqQYCLdzwg" name="View Student Works_To__weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_z6Q0sLDhEe-FFqQYCLdzwg" target="_wen0QLDhEe-FFqQYCLdzwg" source="_Jl_90LDhEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_z6Q0sbDhEe-FFqQYCLdzwg" name="View Student Works_To__guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_z6Q0srDhEe-FFqQYCLdzwg" name="View Student Works_To__weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_N666MLDiEe-FFqQYCLdzwg" target="_3fpnALDhEe-FFqQYCLdzwg" source="_rjKm4LDhEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_N666MbDiEe-FFqQYCLdzwg" name="_To_Choose online Exercise_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_N666MrDiEe-FFqQYCLdzwg" name="_To_Choose online Exercise_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_PHO8ULDiEe-FFqQYCLdzwg" target="_8nS2QLDhEe-FFqQYCLdzwg" source="_rjKm4LDhEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_PHPjYLDiEe-FFqQYCLdzwg" name="_To_Choose Offline Exercise_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_PHPjYbDiEe-FFqQYCLdzwg" name="_To_Choose Offline Exercise_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_SLU_cLDiEe-FFqQYCLdzwg" target="_CteKULDiEe-FFqQYCLdzwg" source="_rjKm4LDhEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_SLU_cbDiEe-FFqQYCLdzwg" name="_To_Choose online Assessments_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_SLVmgLDiEe-FFqQYCLdzwg" name="_To_Choose online Assessments_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_UFiCULDiEe-FFqQYCLdzwg" target="_JvpzoLDiEe-FFqQYCLdzwg" source="_rjKm4LDhEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_UFipYLDiEe-FFqQYCLdzwg" name="_To_OChoose Offline Assessments_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_UFipYbDiEe-FFqQYCLdzwg" name="_To_OChoose Offline Assessments_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_oPxuELDiEe-FFqQYCLdzwg" source="_3fpnALDhEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_oPxuEbDiEe-FFqQYCLdzwg" name="Choose online Exercise_To_Request Sutdent exercise From_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_oPyVILDiEe-FFqQYCLdzwg" name="Choose online Exercise_To_Request Sutdent exercise From_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_p9plILDiEe-FFqQYCLdzwg" source="_8nS2QLDhEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_p9plIbDiEe-FFqQYCLdzwg" name="Choose Offline Exercise_To_Request Sutdent exercise From_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_p9qMMLDiEe-FFqQYCLdzwg" name="Choose Offline Exercise_To_Request Sutdent exercise From_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_sWXI8LDiEe-FFqQYCLdzwg" target="_fsb0ALDiEe-FFqQYCLdzwg" source="_CteKULDiEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_sWXI8bDiEe-FFqQYCLdzwg" name="Choose online Assessments_To_Request Student Assessment From_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_sWXI8rDiEe-FFqQYCLdzwg" name="Choose online Assessments_To_Request Student Assessment From_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_tjm_MLDiEe-FFqQYCLdzwg" target="_fsb0ALDiEe-FFqQYCLdzwg" source="_JvpzoLDiEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_tjm_MbDiEe-FFqQYCLdzwg" name="OChoose Offline Assessments_To_Request Student Assessment From_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_tjnmQLDiEe-FFqQYCLdzwg" name="OChoose Offline Assessments_To_Request Student Assessment From_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Jbz1ILDjEe-FFqQYCLdzwg" target="_z22e4LDiEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_Jbz1IbDjEe-FFqQYCLdzwg" name="Request Sutdent exercise From_To_Send Teacher Exercise From_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_Jbz1IrDjEe-FFqQYCLdzwg" name="Request Sutdent exercise From_To_Send Teacher Exercise From_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_J-9lgLDjEe-FFqQYCLdzwg" target="_z22e4LDiEe-FFqQYCLdzwg" source="_fsb0ALDiEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_J-9lgbDjEe-FFqQYCLdzwg" name="Request Student Assessment From_To_Send Teacher assessment From_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_J-9lgrDjEe-FFqQYCLdzwg" name="Request Student Assessment From_To_Send Teacher assessment From_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_LFkBMLDjEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_LFkoQLDjEe-FFqQYCLdzwg" name="Send Teacher assessment From_To_Student assessment From_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_LFkoQbDjEe-FFqQYCLdzwg" name="Send Teacher assessment From_To_Student assessment From_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_bgEr0LDjEe-FFqQYCLdzwg" target="_YjaGYLDjEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_bgEr0bDjEe-FFqQYCLdzwg" name="Student Exercise From_To_Assign exercises_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_bgFS4LDjEe-FFqQYCLdzwg" name="Student Exercise From_To_Assign exercises_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_cSrNcLDjEe-FFqQYCLdzwg" target="_QHVR8LDjEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_cSrNcbDjEe-FFqQYCLdzwg" name="Student assessment From_To_Assign assessments_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_cSrNcrDjEe-FFqQYCLdzwg" name="Student assessment From_To_Assign assessments_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_zayYgLDjEe-FFqQYCLdzwg" target="_e0m-sLDjEe-FFqQYCLdzwg" source="_YjaGYLDjEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_zayYgbDjEe-FFqQYCLdzwg" name="Assign exercises_To_Exercise Document and Data [File Storage Path(In server), Deadline, Class Allocatio]_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_zay_kLDjEe-FFqQYCLdzwg" name="Assign exercises_To_Exercise Document and Data [File Storage Path(In server), Deadline, Class Allocatio]_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_z-jz8LDjEe-FFqQYCLdzwg" target="_sfy8ULDjEe-FFqQYCLdzwg" source="_QHVR8LDjEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_z-jz8bDjEe-FFqQYCLdzwg" name="Assign assessments_To_Assessment Document and Data [File Storage Path(In server), Deadline, Class Allocatio]_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_z-jz8rDjEe-FFqQYCLdzwg" name="Assign assessments_To_Assessment Document and Data [File Storage Path(In server), Deadline, Class Allocatio]_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_9hwogLDjEe-FFqQYCLdzwg" target="_4RC80LDjEe-FFqQYCLdzwg" source="_e0m-sLDjEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_9hwogbDjEe-FFqQYCLdzwg" name="Exercise Document and Data [File Storage Path(In server), Deadline, Class Allocatio]_To_Check is data is empty_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_9hwogrDjEe-FFqQYCLdzwg" name="Exercise Document and Data [File Storage Path(In server), Deadline, Class Allocatio]_To_Check is data is empty_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="__Hi6kLDjEe-FFqQYCLdzwg" target="_4RC80LDjEe-FFqQYCLdzwg" source="_sfy8ULDjEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="__HjhoLDjEe-FFqQYCLdzwg" name="Assessment Document and Data [File Storage Path(In server), Deadline, Class Allocatio]_To_Check is data is empty_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="__HjhobDjEe-FFqQYCLdzwg" name="Assessment Document and Data [File Storage Path(In server), Deadline, Class Allocatio]_To_Check is data is empty_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_GwfB4LDkEe-FFqQYCLdzwg" target="_C7npILDkEe-FFqQYCLdzwg" source="_4RC80LDjEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_GwfB4bDkEe-FFqQYCLdzwg" name="Check is data is empty_To__guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_GwfB4rDkEe-FFqQYCLdzwg" name="Check is data is empty_To__weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_MRAEILDkEe-FFqQYCLdzwg" target="_YjaGYLDjEe-FFqQYCLdzwg" source="_C7npILDkEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_MRArMLDkEe-FFqQYCLdzwg" name="Check is data is empty_To_Assign exercises_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_MRArMbDkEe-FFqQYCLdzwg" name="Check is data is empty_To_Assign exercises_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NY-_4LDkEe-FFqQYCLdzwg" target="_QHVR8LDjEe-FFqQYCLdzwg" source="_C7npILDkEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_NY-_4bDkEe-FFqQYCLdzwg" name="Check is data is empty_To_Assign assessments_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_NY-_4rDkEe-FFqQYCLdzwg" name="Check is data is empty_To_Assign assessments_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_dswwYLDkEe-FFqQYCLdzwg" target="_aROdoLDkEe-FFqQYCLdzwg" source="_Q7NJcLDkEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_dsxXcLDkEe-FFqQYCLdzwg" name="Successful assignment_To_Successful assignment message_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_dsxXcbDkEe-FFqQYCLdzwg" name="Successful assignment_To_Successful assignment message_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_nbZ_8LDkEe-FFqQYCLdzwg" target="_lymPELDkEe-FFqQYCLdzwg" source="_fgafULDkEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_nbZ_8bDkEe-FFqQYCLdzwg" name="View successful message_To__guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_nbanALDkEe-FFqQYCLdzwg" name="View successful message_To__weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_qpfFgLDkEe-FFqQYCLdzwg" target="_fgafULDkEe-FFqQYCLdzwg" source="_aROdoLDkEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_qpfFgbDkEe-FFqQYCLdzwg" name="Successful assignment message_To_View successful message_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_qpfskLDkEe-FFqQYCLdzwg" name="Successful assignment message_To_View successful message_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_fjxwwLGyEe-c0aJFHCacmQ" name="[else]" target="_WaCRALDhEe-FFqQYCLdzwg" source="_Ie8roLDgEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_fjxwwbGyEe-c0aJFHCacmQ" name="_To_Request exiting exercises and assessments_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_fjyX0LGyEe-c0aJFHCacmQ" name="_To_Request exiting exercises and assessments_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_EXgx0LN1Ee-xKpu6OPNuHg" name="[else]" target="_Q7NJcLDkEe-FFqQYCLdzwg" source="_C7npILDkEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_EXj1ILN1Ee-xKpu6OPNuHg" name="_To_Successful assignment_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_EXlqULN1Ee-xKpu6OPNuHg" name="_To_Successful assignment_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_twnacLOVEe-xKpu6OPNuHg" target="_fsb0ALDiEe-FFqQYCLdzwg" source="_8nS2QLDhEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_twnacbOVEe-xKpu6OPNuHg" name="Choose Offline Exercise_To_Request Student Assessment From_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_twnacrOVEe-xKpu6OPNuHg" name="Choose Offline Exercise_To_Request Student Assessment From_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_v7iZ4LOVEe-xKpu6OPNuHg" target="_fsb0ALDiEe-FFqQYCLdzwg" source="_3fpnALDhEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_v7iZ4bOVEe-xKpu6OPNuHg" name="Choose online Exercise_To_Request Student Assessment From_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_v7iZ4rOVEe-xKpu6OPNuHg" name="Choose online Exercise_To_Request Student Assessment From_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_BW-9ELOWEe-xKpu6OPNuHg" source="_z22e4LDiEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_BW_kILOWEe-xKpu6OPNuHg" name="Retrieve Exercise Details_To_Send Teacher assessment From_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_BW_kIbOWEe-xKpu6OPNuHg" name="Retrieve Exercise Details_To_Send Teacher assessment From_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_IM_9MLOXEe-xKpu6OPNuHg" target="_QHVR8LDjEe-FFqQYCLdzwg" source="_hz10gLOXEe-xKpu6OPNuHg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_IM_9MbOXEe-xKpu6OPNuHg" name="Retrieve Assessment(On/Off)/exercise(On/Off) Details_To_Set up assessments_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_INAkQLOXEe-xKpu6OPNuHg" name="Retrieve Assessment(On/Off)/exercise(On/Off) Details_To_Set up assessments_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_I-azELOXEe-xKpu6OPNuHg" target="_YjaGYLDjEe-FFqQYCLdzwg" source="_z22e4LDiEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_I-azEbOXEe-xKpu6OPNuHg" name="Retrieve Assessment(On/Off)/exercise(On/Off) Details_To_Set up exercises_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_I-azErOXEe-xKpu6OPNuHg" name="Retrieve Assessment(On/Off)/exercise(On/Off) Details_To_Set up exercises_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_rYk6ILOXEe-xKpu6OPNuHg" target="_hz10gLOXEe-xKpu6OPNuHg" source="_fsb0ALDiEe-FFqQYCLdzwg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_rYk6IbOXEe-xKpu6OPNuHg" name="Exercise/Assessment Repository_To_Retrieve Assessment(On/Off) Details_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_rYk6IrOXEe-xKpu6OPNuHg" name="Exercise/Assessment Repository_To_Retrieve Assessment(On/Off) Details_weight"/>
+    </edge>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_PtrgALDcEe-6bpzdOk1HKw" name="Teacher" node="_axOF8LDcEe-6bpzdOk1HKw _Jl_90LDhEe-FFqQYCLdzwg _rjKm4LDhEe-FFqQYCLdzwg _3fpnALDhEe-FFqQYCLdzwg _8nS2QLDhEe-FFqQYCLdzwg _CteKULDiEe-FFqQYCLdzwg _JvpzoLDiEe-FFqQYCLdzwg _QHVR8LDjEe-FFqQYCLdzwg _YjaGYLDjEe-FFqQYCLdzwg _fgafULDkEe-FFqQYCLdzwg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_SJVDELDcEe-6bpzdOk1HKw" name="Claclo-Teacher subsystem" node="_1zKpULDcEe-6bpzdOk1HKw _Ie8roLDgEe-FFqQYCLdzwg _M71GoLDgEe-FFqQYCLdzwg _WaCRALDhEe-FFqQYCLdzwg _z22e4LDiEe-FFqQYCLdzwg _4RC80LDjEe-FFqQYCLdzwg _C7npILDkEe-FFqQYCLdzwg _Q7NJcLDkEe-FFqQYCLdzwg _hz10gLOXEe-xKpu6OPNuHg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_YywOILDcEe-6bpzdOk1HKw" name="" outgoing="_evGQwLDcEe-6bpzdOk1HKw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_axOF8LDcEe-6bpzdOk1HKw" name="Log in to system" incoming="_evGQwLDcEe-6bpzdOk1HKw _KjuxYLDhEe-FFqQYCLdzwg" outgoing="_0Ud2sLDcEe-6bpzdOk1HKw" inPartition="_PtrgALDcEe-6bpzdOk1HKw">
+      <body>// TODO body of OpaqueAction1</body>
+    </node>
+    <node xmi:type="uml:DataStoreNode" xmi:id="_kp4NILDcEe-6bpzdOk1HKw" name="Username and Password" incoming="_0Ud2sLDcEe-6bpzdOk1HKw" outgoing="_6v1XoLDcEe-6bpzdOk1HKw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_1zKpULDcEe-6bpzdOk1HKw" name="Check Credentials" incoming="_6v1XoLDcEe-6bpzdOk1HKw" outgoing="_LLJMILDgEe-FFqQYCLdzwg" inPartition="_SJVDELDcEe-6bpzdOk1HKw">
+      <body>// TODO body of OpaqueAction2</body>
+    </node>
+    <node xmi:type="uml:DecisionNode" xmi:id="_Ie8roLDgEe-FFqQYCLdzwg" name="" incoming="_LLJMILDgEe-FFqQYCLdzwg" outgoing="_paPA8LDgEe-FFqQYCLdzwg _qVyDMLDgEe-FFqQYCLdzwg _fjxwwLGyEe-c0aJFHCacmQ" inPartition="_SJVDELDcEe-6bpzdOk1HKw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_M71GoLDgEe-FFqQYCLdzwg" name="Diaplay error message" incoming="_paPA8LDgEe-FFqQYCLdzwg" outgoing="_INhvALDhEe-FFqQYCLdzwg" inPartition="_SJVDELDcEe-6bpzdOk1HKw">
+      <body>// TODO body of OpaqueAction3</body>
+    </node>
+    <node xmi:type="uml:DataStoreNode" xmi:id="_9H5eYLDgEe-FFqQYCLdzwg" name="Error Message Username and Password Do Not Match" incoming="_INhvALDhEe-FFqQYCLdzwg" outgoing="_KjuxYLDhEe-FFqQYCLdzwg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Jl_90LDhEe-FFqQYCLdzwg" name="View Student Works" incoming="_k9X-oLDhEe-FFqQYCLdzwg" outgoing="_ucvcELDhEe-FFqQYCLdzwg _z6Q0sLDhEe-FFqQYCLdzwg" inPartition="_PtrgALDcEe-6bpzdOk1HKw">
+      <body>// TODO body of OpaqueAction5</body>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_WaCRALDhEe-FFqQYCLdzwg" name="Display exiting student works" incoming="_cgvwkLDhEe-FFqQYCLdzwg _fjxwwLGyEe-c0aJFHCacmQ" outgoing="_k9X-oLDhEe-FFqQYCLdzwg" inPartition="_SJVDELDcEe-6bpzdOk1HKw">
+      <body>// TODO body of OpaqueAction6</body>
+    </node>
+    <node xmi:type="uml:DecisionNode" xmi:id="_rjKm4LDhEe-FFqQYCLdzwg" name="" incoming="_ucvcELDhEe-FFqQYCLdzwg" outgoing="_N666MLDiEe-FFqQYCLdzwg _PHO8ULDiEe-FFqQYCLdzwg _SLU_cLDiEe-FFqQYCLdzwg _UFiCULDiEe-FFqQYCLdzwg" inPartition="_PtrgALDcEe-6bpzdOk1HKw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_wen0QLDhEe-FFqQYCLdzwg" name="" incoming="_z6Q0sLDhEe-FFqQYCLdzwg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_3fpnALDhEe-FFqQYCLdzwg" name="Choose online Exercise" incoming="_N666MLDiEe-FFqQYCLdzwg" outgoing="_oPxuELDiEe-FFqQYCLdzwg _v7iZ4LOVEe-xKpu6OPNuHg" inPartition="_PtrgALDcEe-6bpzdOk1HKw">
+      <body>// TODO body of OpaqueAction7</body>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_8nS2QLDhEe-FFqQYCLdzwg" name="Choose Offline Exercise" incoming="_PHO8ULDiEe-FFqQYCLdzwg" outgoing="_p9plILDiEe-FFqQYCLdzwg _twnacLOVEe-xKpu6OPNuHg" inPartition="_PtrgALDcEe-6bpzdOk1HKw">
+      <body>// TODO body of OpaqueAction8</body>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_CteKULDiEe-FFqQYCLdzwg" name="Choose online Assessments" incoming="_SLU_cLDiEe-FFqQYCLdzwg" outgoing="_sWXI8LDiEe-FFqQYCLdzwg" inPartition="_PtrgALDcEe-6bpzdOk1HKw">
+      <body>// TODO body of OpaqueAction9</body>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_JvpzoLDiEe-FFqQYCLdzwg" name="OChoose Offline Assessments" incoming="_UFiCULDiEe-FFqQYCLdzwg" outgoing="_tjm_MLDiEe-FFqQYCLdzwg" inPartition="_PtrgALDcEe-6bpzdOk1HKw">
+      <body>// TODO body of OpaqueAction10</body>
+    </node>
+    <node xmi:type="uml:DataStoreNode" xmi:id="_fsb0ALDiEe-FFqQYCLdzwg" name="Exercise/Assessment Repository" incoming="_sWXI8LDiEe-FFqQYCLdzwg _tjm_MLDiEe-FFqQYCLdzwg _twnacLOVEe-xKpu6OPNuHg _v7iZ4LOVEe-xKpu6OPNuHg" outgoing="_J-9lgLDjEe-FFqQYCLdzwg _rYk6ILOXEe-xKpu6OPNuHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_z22e4LDiEe-FFqQYCLdzwg" name="Retrieve exercise(On/Off) Details" incoming="_Jbz1ILDjEe-FFqQYCLdzwg _J-9lgLDjEe-FFqQYCLdzwg" outgoing="_BW-9ELOWEe-xKpu6OPNuHg _I-azELOXEe-xKpu6OPNuHg" inPartition="_SJVDELDcEe-6bpzdOk1HKw">
+      <body>// TODO body of OpaqueAction11</body>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_QHVR8LDjEe-FFqQYCLdzwg" name="Set up assessments" incoming="_cSrNcLDjEe-FFqQYCLdzwg _NY-_4LDkEe-FFqQYCLdzwg _IM_9MLOXEe-xKpu6OPNuHg" outgoing="_z-jz8LDjEe-FFqQYCLdzwg" inPartition="_PtrgALDcEe-6bpzdOk1HKw">
+      <body>// TODO body of OpaqueAction13</body>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_YjaGYLDjEe-FFqQYCLdzwg" name="Set up exercises" incoming="_bgEr0LDjEe-FFqQYCLdzwg _MRAEILDkEe-FFqQYCLdzwg _I-azELOXEe-xKpu6OPNuHg" outgoing="_zayYgLDjEe-FFqQYCLdzwg" inPartition="_PtrgALDcEe-6bpzdOk1HKw">
+      <body>// TODO body of OpaqueAction14</body>
+    </node>
+    <node xmi:type="uml:DataStoreNode" xmi:id="_e0m-sLDjEe-FFqQYCLdzwg" name="Exercise Document and Data [File Storage Path(In server), Deadline, Class Allocatio]" incoming="_zayYgLDjEe-FFqQYCLdzwg" outgoing="_9hwogLDjEe-FFqQYCLdzwg"/>
+    <node xmi:type="uml:DataStoreNode" xmi:id="_sfy8ULDjEe-FFqQYCLdzwg" name="Assessment Document and Data [File Storage Path(In server), Deadline, Class Allocatio]" incoming="_z-jz8LDjEe-FFqQYCLdzwg" outgoing="__Hi6kLDjEe-FFqQYCLdzwg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_4RC80LDjEe-FFqQYCLdzwg" name="Check is data is empty" incoming="_9hwogLDjEe-FFqQYCLdzwg __Hi6kLDjEe-FFqQYCLdzwg" outgoing="_GwfB4LDkEe-FFqQYCLdzwg" inPartition="_SJVDELDcEe-6bpzdOk1HKw">
+      <body>// TODO body of OpaqueAction15</body>
+    </node>
+    <node xmi:type="uml:DecisionNode" xmi:id="_C7npILDkEe-FFqQYCLdzwg" name="" incoming="_GwfB4LDkEe-FFqQYCLdzwg" outgoing="_NY-_4LDkEe-FFqQYCLdzwg _MRAEILDkEe-FFqQYCLdzwg _EXgx0LN1Ee-xKpu6OPNuHg" inPartition="_SJVDELDcEe-6bpzdOk1HKw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Q7NJcLDkEe-FFqQYCLdzwg" name="Successful assignment" incoming="_EXgx0LN1Ee-xKpu6OPNuHg" outgoing="_dswwYLDkEe-FFqQYCLdzwg" inPartition="_SJVDELDcEe-6bpzdOk1HKw">
+      <body>// TODO body of OpaqueAction16</body>
+    </node>
+    <node xmi:type="uml:DataStoreNode" xmi:id="_aROdoLDkEe-FFqQYCLdzwg" name="Successful assignment message" incoming="_dswwYLDkEe-FFqQYCLdzwg" outgoing="_qpfFgLDkEe-FFqQYCLdzwg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_fgafULDkEe-FFqQYCLdzwg" name="View successful message" incoming="_qpfFgLDkEe-FFqQYCLdzwg" outgoing="_nbZ_8LDkEe-FFqQYCLdzwg" inPartition="_PtrgALDcEe-6bpzdOk1HKw">
+      <body>// TODO body of OpaqueAction17</body>
+    </node>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_lymPELDkEe-FFqQYCLdzwg" name="" incoming="_nbZ_8LDkEe-FFqQYCLdzwg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_hz10gLOXEe-xKpu6OPNuHg" name="Retrieve Assessment(On/Off) Details" incoming="_rYk6ILOXEe-xKpu6OPNuHg" outgoing="_IM_9MLOXEe-xKpu6OPNuHg" inPartition="_SJVDELDcEe-6bpzdOk1HKw">
+      <body>// TODO body of OpaqueAction16</body>
+    </node>
+  </packagedElement>
+</uml:Model>
